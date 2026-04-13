@@ -33,32 +33,15 @@
           <p class="section-eyebrow">Resumen</p>
           <h3>Tu pedido</h3>
           <p>
-            Esta página está pensada para que la demo parezca una tienda online real.
-            El carrito todavía es visual, pero ya transmite estructura profesional.
+            Ahora este carrito ya no es solo decorativo: mostrará lo que añadas desde la ficha de producto.
           </p>
         </div>
 
         <div class="contact-grid">
-          <div>
-            <div class="category-card" style="margin-bottom:18px;">
-              <h4>Fresas frescas</h4>
-              <p><strong>Precio:</strong> 1,99 €</p>
-              <p><strong>Cantidad:</strong> 1</p>
-              <p><strong>Formato:</strong> Bandeja</p>
-            </div>
-
-            <div class="category-card" style="margin-bottom:18px;">
-              <h4>Caja mixta de fruta</h4>
-              <p><strong>Precio:</strong> 12,90 €</p>
-              <p><strong>Cantidad:</strong> 1</p>
-              <p><strong>Formato:</strong> Caja</p>
-            </div>
-
+          <div id="cart-items">
             <div class="category-card">
-              <h4>Papas fritas de bolsa</h4>
-              <p><strong>Precio:</strong> 2,50 €</p>
-              <p><strong>Cantidad:</strong> 2</p>
-              <p><strong>Formato:</strong> Unidad</p>
+              <h4>Cargando carrito...</h4>
+              <p>En unos segundos se mostrarán aquí los productos añadidos.</p>
             </div>
           </div>
 
@@ -66,7 +49,7 @@
             <div class="offer-card" style="position:sticky; top:110px;">
               <span class="offer-tag">Resumen de compra</span>
               <h4>Total del pedido</h4>
-              <p class="offer-price">19,89 €</p>
+              <p class="offer-price" id="cart-total">0,00 €</p>
               <p>Subtotal de productos seleccionados en esta demo.</p>
 
               <div style="margin-top:18px; display:grid; gap:10px;">
@@ -87,7 +70,9 @@
               </div>
 
               <div style="margin-top:20px; display:grid; gap:12px;">
-                <a class="btn btn-primary" href="https://wa.me/34928123456?text=Hola,%20quiero%20confirmar%20este%20pedido:%20Fresas%20frescas,%20Caja%20mixta%20de%20fruta%20y%20Papas%20fritas.">Finalizar por WhatsApp</a>
+                <a class="btn btn-primary" href="https://wa.me/34928123456?text=Hola,%20quiero%20confirmar%20mi%20pedido%20del%20carrito.">
+                  Finalizar por WhatsApp
+                </a>
                 <a class="btn btn-outline" href="tienda.html">Seguir comprando</a>
               </div>
             </div>
@@ -99,25 +84,25 @@
     <section class="section section-tinted">
       <div class="container">
         <div class="section-heading">
-          <p class="section-eyebrow">Información útil</p>
-          <h3>Cómo sería el siguiente paso</h3>
-          <p>Así el cliente entiende rápido cómo funcionaría el proceso de compra.</p>
+          <p class="section-eyebrow">Proceso</p>
+          <h3>Cómo sería la compra</h3>
+          <p>Así la demo parece una tienda online mucho más real.</p>
         </div>
 
         <div class="services-grid">
           <article class="service-card">
-            <h4>1. Revisas tu carrito</h4>
-            <p>Compruebas productos, cantidades y total del pedido.</p>
+            <h4>1. Añades productos</h4>
+            <p>Desde las fichas individuales o desde la tienda.</p>
           </article>
 
           <article class="service-card">
-            <h4>2. Confirmas por WhatsApp</h4>
-            <p>La tienda recibe el pedido de forma rápida y clara.</p>
+            <h4>2. Revisas tu pedido</h4>
+            <p>Compruebas cantidades y total antes de confirmar.</p>
           </article>
 
           <article class="service-card">
-            <h4>3. Recogida o entrega</h4>
-            <p>Se acuerda la recogida o el servicio según disponibilidad.</p>
+            <h4>3. Contactas o finalizas</h4>
+            <p>El pedido puede terminar por WhatsApp o pasar a una versión real más adelante.</p>
           </article>
         </div>
       </div>
@@ -141,5 +126,6 @@
     </div>
   </footer>
 
+  <script src="app.js"></script>
 </body>
 </html>
