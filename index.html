@@ -3,210 +3,313 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bazar Mercado Don Pedro</title>
-  <meta name="description" content="Bazar Mercado Don Pedro en Calle Don Pedro Infinito, 70. Fruta, verdura, limpieza, bebidas, snacks, helados y productos del día a día." />
+  <title>Bazar Mercado Don Pedro | Compra online</title>
+  <meta name="description" content="Demo ecommerce profesional de Bazar Mercado Don Pedro. Fruta, verdura, bebidas, limpieza, snacks, despensa y productos frescos." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <header class="site-header">
-    <div class="container header-inner">
-      <div class="brand-block">
-        <p class="eyebrow">Las Palmas de Gran Canaria</p>
-        <h1 class="brand-name">Bazar Mercado Don Pedro</h1>
-        <p class="brand-subtitle">Fruta · Verdura · Limpieza · Bebidas · Dulces · Básicos del hogar</p>
+  <div class="utility-bar">
+    <div class="container utility-inner">
+      <div class="utility-left">
+        <span>Abierto todos los días · 08:00 - 23:00</span>
+        <span>📍 Calle Don Pedro Infinito, 70 · Las Palmas</span>
       </div>
+      <div class="utility-right">
+        <a href="tel:+34928123456">+34 928 123 456</a>
+        <a href="https://wa.me/34928123456?text=Hola,%20quiero%20consultar%20productos%20del%20bazar">WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-main">
+      <a class="logo" href="index.html">
+        <span class="logo-mark">DM</span>
+        <div class="logo-copy">
+          <strong>Bazar Mercado Don Pedro</strong>
+          <small>Compra local · rápida · visual</small>
+        </div>
+      </a>
+
+      <form class="search-box" action="tienda.html">
+        <input type="text" placeholder="Buscar fruta, bebidas, limpieza, snacks..." />
+        <button type="submit">Buscar</button>
+      </form>
 
       <div class="header-actions">
-        <a class="btn btn-outline" href="tel:+34928123456">Llamar</a>
-        <a class="btn btn-primary" href="https://wa.me/34928123456?text=Hola,%20quiero%20hacer%20un%20pedido%20o%20consultar%20productos">Pedir por WhatsApp</a>
+        <a class="header-link" href="contacto.html">Mi cuenta</a>
+        <a class="header-link" href="faq.html">Ayuda</a>
+        <a class="cart-pill" href="carrito.html">
+          <span>Cesta</span>
+          <strong>Ver carrito</strong>
+        </a>
       </div>
+    </div>
+
+    <div class="container">
+      <nav class="category-nav">
+        <a href="tienda.html">Comprar</a>
+        <a href="categoria-fruta.html">Fruta y verdura</a>
+        <a href="tienda.html">Cajas variadas</a>
+        <a href="tienda.html">Bebidas</a>
+        <a href="tienda.html">Limpieza</a>
+        <a href="tienda.html">Despensa</a>
+        <a href="tienda.html">Snacks</a>
+        <a href="tienda.html">Lácteos y fríos</a>
+        <a href="faq.html">Preguntas frecuentes</a>
+      </nav>
     </div>
   </header>
 
   <main>
-
-    <section class="hero-section">
+    <section class="hero">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <span class="hero-badge">Abierto todos los días · 08:00 a 23:00</span>
-          <h2 class="hero-title">Tu tienda de barrio con todo lo que hace falta para el día a día</h2>
+          <p class="eyebrow">Demo ecommerce profesional</p>
+          <h1>Todo lo que hace falta para el día a día, en una tienda online con aspecto real</h1>
           <p class="hero-text">
-            En <strong>Calle Don Pedro Infinito, 70</strong>, encuentras fruta fresca, verdura, refrescos fríos,
-            lácteos, snacks, dulces, productos de limpieza, helados, especias y básicos de despensa.
-            Una web clara, visual y cómoda para que el cliente vea lo que hay y contacte en segundos.
+            Fruta fresca, verdura, bebidas frías, productos de limpieza, snacks, helados,
+            lácteos y básicos de despensa. Una portada pensada para vender, generar confianza
+            y enseñar a un negocio cómo quedaría una tienda online profesional.
           </p>
 
-          <div class="hero-buttons">
-            <a class="btn btn-primary" href="https://wa.me/34928123456?text=Hola,%20quiero%20hacer%20un%20pedido">Hacer pedido</a>
-            <a class="btn btn-soft" href="https://www.google.com/maps/search/?api=1&query=Calle+Don+Pedro+Infinito+70+Las+Palmas+de+Gran+Canaria">Ver ubicación</a>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="tienda.html">Comprar ahora</a>
+            <a class="btn btn-secondary" href="categoria-fruta.html">Ver categorías</a>
           </div>
 
-          <div class="hero-info-cards">
-            <div class="mini-card">
-              <p class="mini-card-label">Dirección</p>
-              <p class="mini-card-value">Calle Don Pedro Infinito, 70</p>
+          <div class="hero-badges">
+            <span>Compra local</span>
+            <span>Atención por WhatsApp</span>
+            <span>Recogida o consulta</span>
+            <span>Horario amplio</span>
+          </div>
+
+          <div class="hero-info">
+            <div class="info-card">
+              <small>Dirección</small>
+              <strong>Calle Don Pedro Infinito, 70</strong>
             </div>
-            <div class="mini-card">
-              <p class="mini-card-label">Horario</p>
-              <p class="mini-card-value">Lunes a domingo · 08:00 - 23:00</p>
+            <div class="info-card">
+              <small>Horario</small>
+              <strong>Lunes a domingo · 08:00 - 23:00</strong>
             </div>
-            <div class="mini-card">
-              <p class="mini-card-label">Teléfono</p>
-              <p class="mini-card-value">+34 928 123 456</p>
+            <div class="info-card">
+              <small>Contacto</small>
+              <strong>WhatsApp y teléfono</strong>
             </div>
           </div>
         </div>
 
-        <div class="hero-visual">
-          <div class="hero-image hero-image-large">
-            <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1200&q=80" alt="Fruta y verdura fresca" />
+        <div class="hero-media">
+          <div class="hero-main-image">
+            <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1400&q=80" alt="Fruta y verdura fresca" />
           </div>
-          <div class="hero-image">
-            <img src="https://images.unsplash.com/photo-1579113800032-c38bd7635818?auto=format&fit=crop&w=1200&q=80" alt="Pasillo de productos" />
-          </div>
-          <div class="hero-image">
-            <img src="https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=1200&q=80" alt="Nevera de bebidas" />
+          <div class="hero-side-grid">
+            <img src="https://images.unsplash.com/photo-1579113800032-c38bd7635818?auto=format&fit=crop&w=900&q=80" alt="Zona de supermercado" />
+            <img src="https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=900&q=80" alt="Nevera de bebidas" />
           </div>
         </div>
       </div>
     </section>
 
-    <section class="stats-section">
-      <div class="container stats-grid">
-        <div class="stat-card">
-          <p class="stat-number">7 días</p>
-          <p class="stat-text">abierto toda la semana</p>
+    <section class="trust-strip">
+      <div class="container trust-grid">
+        <div class="trust-item">
+          <strong>+150</strong>
+          <span>productos de ejemplo</span>
         </div>
-        <div class="stat-card">
-          <p class="stat-number">+6</p>
-          <p class="stat-text">grandes categorías de productos</p>
+        <div class="trust-item">
+          <strong>Compra fácil</strong>
+          <span>categorías claras y visuales</span>
         </div>
-        <div class="stat-card">
-          <p class="stat-number">Rápido</p>
-          <p class="stat-text">pedido y consulta por WhatsApp</p>
+        <div class="trust-item">
+          <strong>Atención rápida</strong>
+          <span>consulta directa por WhatsApp</span>
         </div>
-        <div class="stat-card">
-          <p class="stat-number">Barrio</p>
-          <p class="stat-text">cercanía y compra del día a día</p>
+        <div class="trust-item">
+          <strong>Tienda de barrio</strong>
+          <span>cercanía, rapidez y confianza</span>
         </div>
       </div>
     </section>
 
     <section class="section">
       <div class="container">
-        <div class="section-heading">
-          <p class="section-eyebrow">Categorías</p>
-          <h3>Todo lo que el cliente espera encontrar en una tienda completa</h3>
-          <p>
-            Esta parte hace que la web parezca un comercio real de verdad. No solo enseña que la tienda existe:
-            deja claro lo que vende y lo que el cliente puede preguntar o encargar.
-          </p>
+        <div class="section-head">
+          <p class="eyebrow">Categorías destacadas</p>
+          <h2>Compra por secciones, como en una tienda online de verdad</h2>
+          <p>La base de un ecommerce profesional es que el cliente entienda rápido qué vendes y dónde entrar.</p>
         </div>
 
-        <div class="category-grid">
-          <article class="category-card">
-            <h4>Fruta</h4>
-            <p>Fresas, plátanos, manzanas, naranjas, limones, peras, uvas, melón y sandía.</p>
+        <div class="category-cards">
+          <a class="category-card" href="categoria-fruta.html">
+            <img src="https://images.unsplash.com/photo-1464965911861-746a04b4bca6?auto=format&fit=crop&w=900&q=80" alt="Fruta" />
+            <div class="category-card-copy">
+              <h3>Fruta y verdura</h3>
+              <p>Fresas, plátanos, tomates, pimientos, cebollas, papas y más.</p>
+              <span>98 productos</span>
+            </div>
+          </a>
+
+          <a class="category-card" href="tienda.html">
+            <img src="https://images.unsplash.com/photo-1604719312566-8912e9c8a213?auto=format&fit=crop&w=900&q=80" alt="Despensa" />
+            <div class="category-card-copy">
+              <h3>Despensa</h3>
+              <p>Arroz, pasta, aceite, conservas, salsas, habichuelas y básicos.</p>
+              <span>37 productos</span>
+            </div>
+          </a>
+
+          <a class="category-card" href="tienda.html">
+            <img src="https://images.unsplash.com/photo-1583947215259-38e31be8751f?auto=format&fit=crop&w=900&q=80" alt="Limpieza" />
+            <div class="category-card-copy">
+              <h3>Limpieza y hogar</h3>
+              <p>Lejía, detergente, suavizante, papel, bolsas y más.</p>
+              <span>26 productos</span>
+            </div>
+          </a>
+
+          <a class="category-card" href="tienda.html">
+            <img src="https://images.unsplash.com/photo-1542838686-0d3f4b6b4b6f?auto=format&fit=crop&w=900&q=80" alt="Bebidas" />
+            <div class="category-card-copy">
+              <h3>Bebidas y fríos</h3>
+              <p>Refrescos, aguas, zumos, lácteos, helados y quesos.</p>
+              <span>42 productos</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Ofertas del día</p>
+          <h2>Promociones con fuerza comercial</h2>
+          <p>Un bloque así hace que la portada venda más y se vea mucho menos básica.</p>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <span class="product-tag">Oferta</span>
+            <img src="https://images.unsplash.com/photo-1464965911861-746a04b4bca6?auto=format&fit=crop&w=900&q=80" alt="Fresas frescas" />
+            <div class="product-copy">
+              <h3>Fresas frescas</h3>
+              <p>Bandeja de fresas dulces y frescas para desayuno o postre.</p>
+              <div class="product-bottom">
+                <strong>1,99 €</strong>
+                <a href="producto-fresas.html">Ver producto</a>
+              </div>
+            </div>
           </article>
 
-          <article class="category-card">
-            <h4>Verdura</h4>
-            <p>Tomates, pimientos, cebollas, papas, zanahorias, pepinos, lechuga y habichuelas.</p>
+          <article class="product-card">
+            <span class="product-tag">Promoción</span>
+            <img src="https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=900&q=80" alt="Pimientos" />
+            <div class="product-copy">
+              <h3>Pimientos rojos y verdes</h3>
+              <p>Verdura fresca ideal para guisos, ensaladas o cocina diaria.</p>
+              <div class="product-bottom">
+                <strong>1,49 € / kg</strong>
+                <a href="tienda.html">Consultar</a>
+              </div>
+            </div>
           </article>
 
-          <article class="category-card">
-            <h4>Limpieza del hogar</h4>
-            <p>Detergente, lejía, suavizante, estropajos, bolsas de basura, papel higiénico y papel de cocina.</p>
+          <article class="product-card">
+            <span class="product-tag">2x1</span>
+            <img src="https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=900&q=80" alt="Snacks" />
+            <div class="product-copy">
+              <h3>Papas fritas de bolsa</h3>
+              <p>Promoción en snacks seleccionados para picar o acompañar.</p>
+              <div class="product-bottom">
+                <strong>2x1</strong>
+                <a href="tienda.html">Ver oferta</a>
+              </div>
+            </div>
           </article>
 
-          <article class="category-card">
-            <h4>Dulces y chuches</h4>
-            <p>Gominolas, chupachups, caramelos, chocolatinas, galletas y pequeños caprichos del día.</p>
-          </article>
-
-          <article class="category-card">
-            <h4>Snacks y bebidas</h4>
-            <p>Papas fritas, snacks salados, Coca-Cola, zumos, agua, bebidas energéticas y refrescos fríos.</p>
-          </article>
-
-          <article class="category-card">
-            <h4>Despensa y básicos</h4>
-            <p>Arroz, pasta, aceite, conservas, salsas, habichuelas, sal, azúcar y especias.</p>
+          <article class="product-card">
+            <span class="product-tag">Fríos</span>
+            <img src="https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=900&q=80" alt="Refrescos" />
+            <div class="product-copy">
+              <h3>Refrescos bien fríos</h3>
+              <p>Coca-Cola, aguas, zumos y energéticas listas para llevar.</p>
+              <div class="product-bottom">
+                <strong>desde 1,20 €</strong>
+                <a href="tienda.html">Ver más</a>
+              </div>
+            </div>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section section-tinted">
-      <div class="container">
-        <div class="section-heading">
-          <p class="section-eyebrow">Ofertas del día</p>
-          <h3>Promociones que llaman la atención y animan a pasar o escribir</h3>
+    <section class="section">
+      <div class="container split-section">
+        <div class="split-copy">
+          <p class="eyebrow">Qué nos diferencia</p>
+          <h2>Una tienda útil, práctica y pensada para convertir visitas en clientes</h2>
           <p>
-            Este bloque ayuda mucho a que la web no se vea vacía. Da sensación de negocio activo, cercano y con movimiento real.
+            Una portada buena no solo se ve limpia: organiza la compra, transmite confianza
+            y guía al cliente. Este bloque es el que hace que la demo parezca negocio real.
           </p>
+
+          <div class="feature-list">
+            <div class="feature-item">
+              <strong>Compra rápida</strong>
+              <span>Categorías claras, acceso directo y navegación sencilla.</span>
+            </div>
+            <div class="feature-item">
+              <strong>Atención cercana</strong>
+              <span>Consulta por WhatsApp, llamada o recogida en tienda.</span>
+            </div>
+            <div class="feature-item">
+              <strong>Productos del día</strong>
+              <span>Ofertas, frescos, más vendidos y básicos visibles.</span>
+            </div>
+            <div class="feature-item">
+              <strong>Horario amplio</strong>
+              <span>Abierto todos los días para la compra del día a día.</span>
+            </div>
+          </div>
         </div>
 
-        <div class="offer-grid">
-          <article class="offer-card">
-            <span class="offer-tag">Oferta</span>
-            <h4>Fresas frescas</h4>
-            <p class="offer-price">1,99 € / bandeja</p>
-            <p>Perfectas para desayunos, meriendas o postres.</p>
-          </article>
+        <div class="split-panel">
+          <div class="panel-card">
+            <h3>Cómo comprar</h3>
+            <ol>
+              <li>Entras en una categoría o en la tienda general.</li>
+              <li>Ves productos, ofertas y fichas individuales.</li>
+              <li>Añades a la cesta o consultas por WhatsApp.</li>
+              <li>Finalizas el pedido o acuerdas recogida.</li>
+            </ol>
+          </div>
 
-          <article class="offer-card">
-            <span class="offer-tag">Oferta</span>
-            <h4>Pimientos rojos y verdes</h4>
-            <p class="offer-price">1,49 € / kg</p>
-            <p>Verdura fresca ideal para cocinar en casa.</p>
-          </article>
-
-          <article class="offer-card">
-            <span class="offer-tag">Promoción</span>
-            <h4>Papas fritas de bolsa</h4>
-            <p class="offer-price">2x1</p>
-            <p>Snacks seleccionados para picar durante el día.</p>
-          </article>
-
-          <article class="offer-card">
-            <span class="offer-tag">Fríos</span>
-            <h4>Refrescos bien fríos</h4>
-            <p class="offer-price">3 por 2,50 €</p>
-            <p>Coca-Cola, limón, naranja y otras bebidas.</p>
-          </article>
-
-          <article class="offer-card">
-            <span class="offer-tag">Verano</span>
-            <h4>Helados y polos</h4>
-            <p class="offer-price">Desde 1 €</p>
-            <p>Opciones para niños y adultos a cualquier hora.</p>
-          </article>
-
-          <article class="offer-card">
-            <span class="offer-tag">Hogar</span>
-            <h4>Limpieza del hogar</h4>
-            <p class="offer-price">Hasta -20%</p>
-            <p>Detergente, lejía, papel y productos básicos.</p>
-          </article>
+          <div class="panel-card panel-card-dark">
+            <h3>Clientes que valoran esto</h3>
+            <div class="review-stars">★★★★★</div>
+            <p>“Muy cómodo para ver lo que hay y pedir rápido.”</p>
+            <p>“La web da confianza y se encuentra todo más fácil.”</p>
+            <p>“Perfecta para una tienda de barrio con entrega o recogida.”</p>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="section section-dark">
       <div class="container">
-        <div class="section-heading section-heading-dark">
-          <p class="section-eyebrow">Lo más vendido</p>
-          <h3>Productos que suelen salir más rápido</h3>
-          <p>
-            Esta parte da sensación de realidad y de negocio con rotación. Queda muy profesional en una web de comercio local.
-          </p>
+        <div class="section-head section-head-dark">
+          <p class="eyebrow">Más vendidos</p>
+          <h2>Productos que suelen salir más rápido</h2>
+          <p>Este bloque da sensación de tienda viva, con movimiento y con rotación real.</p>
         </div>
 
-        <div class="popular-grid">
-          <div class="popular-card">
-            <h4>Fruta del día</h4>
+        <div class="best-sellers">
+          <div class="best-card">
+            <h3>Fruta</h3>
             <ul>
               <li>Fresas</li>
               <li>Plátanos</li>
@@ -214,9 +317,8 @@
               <li>Naranjas</li>
             </ul>
           </div>
-
-          <div class="popular-card">
-            <h4>Verdura básica</h4>
+          <div class="best-card">
+            <h3>Verdura</h3>
             <ul>
               <li>Papas</li>
               <li>Pimientos</li>
@@ -224,172 +326,84 @@
               <li>Cebollas</li>
             </ul>
           </div>
-
-          <div class="popular-card">
-            <h4>Bebidas y fríos</h4>
+          <div class="best-card">
+            <h3>Bebidas y fríos</h3>
             <ul>
               <li>Coca-Cola</li>
               <li>Agua fría</li>
               <li>Zumos</li>
-              <li>Energéticas</li>
+              <li>Helados</li>
             </ul>
           </div>
-
-          <div class="popular-card">
-            <h4>Dulces y snacks</h4>
+          <div class="best-card">
+            <h3>Snacks y hogar</h3>
             <ul>
-              <li>Gominolas</li>
-              <li>Chupachups</li>
               <li>Papas fritas</li>
-              <li>Chocolate</li>
+              <li>Gominolas</li>
+              <li>Detergente</li>
+              <li>Lejía</li>
             </ul>
           </div>
-        </div>
-
-        <div class="tag-cloud">
-          <span>Quesos</span>
-          <span>Mousse</span>
-          <span>Helados</span>
-          <span>Yogures</span>
-          <span>Lejía</span>
-          <span>Detergente</span>
-          <span>Suavizante</span>
-          <span>Arroz</span>
-          <span>Pasta</span>
-          <span>Aceite</span>
-          <span>Especias</span>
-          <span>Conservas</span>
-          <span>Galletas</span>
-          <span>Caramelos</span>
-          <span>Habichuelas</span>
         </div>
       </div>
     </section>
 
     <section class="section">
       <div class="container">
-        <div class="section-heading">
-          <p class="section-eyebrow">Novedades y servicios</p>
-          <h3>Una tienda útil, práctica y preparada para el cliente</h3>
-          <p>
-            No hace falta una tienda online complicada. Muchas veces basta con una web premium, clara y visual que facilite la consulta y el pedido.
-          </p>
+        <div class="section-head">
+          <p class="eyebrow">Preguntas frecuentes</p>
+          <h2>Respuestas rápidas para generar confianza</h2>
         </div>
 
-        <div class="services-grid">
-          <article class="service-card">
-            <h4>Consulta por WhatsApp</h4>
-            <p>Pregunta si hay producto disponible y resuelve dudas en segundos.</p>
-          </article>
+        <div class="faq-preview">
+          <div class="faq-item">
+            <strong>¿Puedo hacer el pedido por WhatsApp?</strong>
+            <p>Sí. Puedes consultar disponibilidad, precios y confirmar la compra rápidamente.</p>
+          </div>
+          <div class="faq-item">
+            <strong>¿Puedo recoger en tienda?</strong>
+            <p>Sí. Puedes consultar y pasar a recoger tu pedido según disponibilidad.</p>
+          </div>
+          <div class="faq-item">
+            <strong>¿Qué productos suele haber?</strong>
+            <p>Fruta, verdura, bebidas, limpieza, snacks, fríos, despensa y promociones del día.</p>
+          </div>
+        </div>
 
-          <article class="service-card">
-            <h4>Compra rápida del día</h4>
-            <p>Ideal para fruta, verdura, bebidas, limpieza y básicos del hogar.</p>
-          </article>
-
-          <article class="service-card">
-            <h4>Recogida fácil</h4>
-            <p>El cliente puede escribir, confirmar y pasar a recoger su compra.</p>
-          </article>
-
-          <article class="service-card">
-            <h4>Horario amplio</h4>
-            <p>Abierto desde la mañana hasta la noche, todos los días de la semana.</p>
-          </article>
+        <div class="center-cta">
+          <a class="btn btn-primary" href="faq.html">Ver preguntas frecuentes</a>
         </div>
       </div>
     </section>
-
-    <section class="section section-gallery">
-      <div class="container">
-        <div class="section-heading">
-          <p class="section-eyebrow">Fotos</p>
-          <h3>Una presentación más visual y profesional</h3>
-          <p>
-            Estas imágenes hacen que la web se vea más seria, más cuidada y más cercana a una tienda real.
-          </p>
-        </div>
-
-        <div class="gallery-grid">
-          <div class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1200&q=80" alt="Zona de fruta y verdura" />
-            <p>Zona de fruta y verdura</p>
-          </div>
-          <div class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1583947215259-38e31be8751f?auto=format&fit=crop&w=1200&q=80" alt="Productos de limpieza" />
-            <p>Pasillo de limpieza y hogar</p>
-          </div>
-          <div class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=1200&q=80" alt="Neveras de bebidas" />
-            <p>Neveras de bebidas y fríos</p>
-          </div>
-          <div class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=1200&q=80" alt="Dulces y snacks" />
-            <p>Dulces, snacks y caprichos</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-contact">
-      <div class="container contact-grid">
-        <div class="contact-copy">
-          <p class="section-eyebrow">Ubicación y contacto</p>
-          <h3>Fácil de encontrar, fácil de contactar</h3>
-          <p>
-            La web deja claro dónde está la tienda, cuándo abre y cómo escribir o llamar.
-            Esa es la parte que más ayuda a convertir visitas en clientes reales.
-          </p>
-
-          <div class="contact-box">
-            <strong>Dirección</strong>
-            <p>Calle Don Pedro Infinito, 70<br>Las Palmas de Gran Canaria</p>
-          </div>
-
-          <div class="contact-box">
-            <strong>Horario</strong>
-            <p>Lunes a domingo · 08:00 - 23:00</p>
-          </div>
-
-          <div class="contact-box">
-            <strong>Teléfono</strong>
-            <p>+34 928 123 456</p>
-          </div>
-
-          <div class="contact-actions">
-            <a class="btn btn-outline" href="https://www.google.com/maps/search/?api=1&query=Calle+Don+Pedro+Infinito+70+Las+Palmas+de+Gran+Canaria">Ver en Google Maps</a>
-            <a class="btn btn-primary" href="https://wa.me/34928123456?text=Hola,%20quiero%20consultar%20productos%20del%20bazar">Abrir WhatsApp</a>
-          </div>
-        </div>
-
-        <div class="contact-map">
-          <iframe
-            src="https://www.google.com/maps?q=Calle+Don+Pedro+Infinito+70+Las+Palmas+de+Gran+Canaria&output=embed"
-            width="100%"
-            height="420"
-            style="border:0;"
-            loading="lazy"
-            allowfullscreen="">
-          </iframe>
-        </div>
-      </div>
-    </section>
-
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-inner">
+    <div class="container footer-grid">
       <div>
-        <h4>Bazar Mercado Don Pedro</h4>
-        <p>Demo profesional de página web para comercio local.</p>
+        <h3>Bazar Mercado Don Pedro</h3>
+        <p>Demo ecommerce profesional para comercio local.</p>
       </div>
+
       <div>
+        <h4>Comprar</h4>
+        <a href="tienda.html">Tienda</a>
+        <a href="categoria-fruta.html">Fruta y verdura</a>
+        <a href="producto-fresas.html">Producto destacado</a>
+        <a href="carrito.html">Carrito</a>
+      </div>
+
+      <div>
+        <h4>Ayuda</h4>
+        <a href="faq.html">Preguntas frecuentes</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="https://wa.me/34928123456?text=Hola,%20quiero%20consultar%20productos">WhatsApp</a>
+      </div>
+
+      <div>
+        <h4>Datos de la tienda</h4>
         <p>Calle Don Pedro Infinito, 70</p>
         <p>Las Palmas de Gran Canaria</p>
-      </div>
-      <div>
-        <p>Abierto todos los días</p>
-        <p>08:00 - 23:00</p>
+        <p>08:00 - 23:00 · Lunes a domingo</p>
       </div>
     </div>
   </footer>
